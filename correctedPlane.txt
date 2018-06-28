@@ -11,8 +11,24 @@
 ✓	Полиморфизм
 ✓	Внутренние класы
 ✓	Абстрактные классы
-✓	Исключения
--------------------------------------------------------------------------
+✓	Исключения - 
+	     	блоки try,catch,finally; 
+		try-with-resources (+ void addSuppressed(Throwable exception))
+		StackTraceElement[] getStackTrace() 
+			java.lang.StackTraceElement -
+				String getClassName()
+				int getLineNumber()
+				String getMethodName()
+				...
+		 java.lang.Throwable -
+		 	Throwable initCause(Throwable cause) 
+			Throwable getCause(Throwable cause) 
+			Throwable[] getSuppressed(), 
+			addSuppressed(),
+			...
+	        рекомендации по обработке исключений 
+			custom Exception for package (wrap standard exception)
+	-------------------------------------------------------------------------
 
 ✔	Глава2 - Collections
 
