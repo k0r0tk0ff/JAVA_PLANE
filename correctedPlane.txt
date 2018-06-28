@@ -45,6 +45,9 @@
 -------------------------------------------------------------------------
 
    Глава3 - SQL, JDBC
+   see: 
+   Oracle Database JDBC Developer's Guide, 12c Release 1 (12.1)
+   https://docs.oracle.com/database/121/JJDBC/E49300-05.pdf
 
 	Общие сведения о базах данных на основе PostgreSQL
 	Базовый синтаксис SQL
