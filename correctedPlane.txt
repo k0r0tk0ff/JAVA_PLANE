@@ -69,12 +69,16 @@
 	3)preparestatement;
 	4)проследить за корректным закрытием ресурсов.	
   
-  Практическое задание 5.2 (Глава5) - 
-  Добиться отката всей операции при допустим ошибке на 5-м batch
+  ✓     Практическое задание 5.2 (Глава5) - 
+        Добиться отката всей операции при допустим ошибке на 5-м batch
+ 	Решено - используется connection.setAutoCommit(false) + одна транзакция, 
+	в рамках которой последовательно идет выполнение batch-ей. В случае,
+	если произойдет ошибка на каком-то batch-е произойдет откат всей серии batch-ей.
+	см - 
+	https://github.com/k0r0tk0ff/SequenceProcessor/blob/master/src/main/java/ru/k0r0tk0ff/sequence/processor/infrastructure/dao/PostgresSequenceDao.java
+	https://github.com/k0r0tk0ff/SequenceProcessor/blob/master/src/main/java/ru/k0r0tk0ff/Main.java
   
-  Практическое задание 5.3 (Глава5) - 
-  Реализовать collable statement с custom типом (use Oracle DB)
-------------------------------------------------------------------------
+  ------------------------------------------------------------------------
 
 		Глава4 - Многопоточность
 
