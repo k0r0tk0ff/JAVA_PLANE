@@ -48,6 +48,8 @@
    see: 
    Oracle Database JDBC Developer's Guide, 12c Release 1 (12.1)
    https://docs.oracle.com/database/121/JJDBC/E49300-05.pdf
+   http://www.oracle.com/technetwork/database/application-development/jdbc/downloads/index.html
+   https://blogs.oracle.com/dev2dev/get-oracle-jdbc-drivers-and-ucp-from-oracle-maven-repository-without-ides
 
 	Общие сведения о базах данных на основе PostgreSQL
 	Базовый синтаксис SQL
