@@ -52,24 +52,19 @@
    https://blogs.oracle.com/dev2dev/get-oracle-jdbc-drivers-and-ucp-from-oracle-maven-repository-without-ides
    https://www.mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/
 
-	Общие сведения о базах данных на основе PostgreSQL
-	Базовый синтаксис SQL
-	Запросы Select, Join, Outer join - Left, Right
-	JDBC
-	Индексирование, внешние ключи, естественные ключи
+✓ 	Индексирование, внешние ключи, естественные ключи
+✓ 	Базовый синтаксис SQL
+✓ 	Запросы Select, Join, Outer join - Left, Right
+✓ 	Отношения "one2one", "one2many", "many2many" 
+✓ 	JDBC
+✓ 	     Connection
+✓ 	     Connection pool
+✓ 	     Statement, Preparestatement
+✓ 	     ResultSet
+✓ 	     AutoCommit
+	     
 	
-	Практическое задание 5.1 (Глава5) - 
-	Написать консольное приложение, в котором происходит обращение 
-	к базе данных (можно Embedded), и полученный результат выводиться на экран. 
-	Использовать: 
-	1)Первоначальное создание таблиц путем чтения файла schema.sql 
-	и последующего его парсинга на строки, 
-	с последующим исполнением полученных из строк запросов.
-	2)Запрос к базе должен находиться в файле query.sql.
-	3)preparestatement;
-	4)проследить за корректным закрытием ресурсов.	
-  
-  ✓     Практическое задание 5.2 (Глава5) - 
+✓       Практическое задание 5.2 (Глава5) - 
         Добиться отката всей операции при допустим ошибке на 5-м batch
  	Решено - используется connection.setAutoCommit(false) + одна транзакция, 
 	в рамках которой последовательно идет выполнение batch-ей. В случае,
