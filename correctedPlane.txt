@@ -5,7 +5,6 @@
 СКОРРЕКТИРОВАНО
 
 ✔	Глава1 - ООП
-
 ✓	Наследование
 ✓	Инкапсуляция
 ✓	Полиморфизм
@@ -13,13 +12,13 @@
 ✓	Абстрактные классы
 ✓	Исключения - 
 	     	блоки try,catch,finally; 
-		try-with-resources (+ void addSuppressed(Throwable exception))
+	try-with-resources (+ void addSuppressed(Throwable exception))
 		StackTraceElement[] getStackTrace() 
 			java.lang.StackTraceElement -
 				String getClassName()
 				int getLineNumber()
 				String getMethodName()
-				...
+			...
 		 java.lang.Throwable -
 		 	Throwable initCause(Throwable cause) 
 			Throwable getCause(Throwable cause) 
@@ -43,8 +42,23 @@
 ✓	Структуры Tree
 ✓	Hashcode, equals
 -------------------------------------------------------------------------
+        Глава3 - SQL
+	Database main: 
+✓	Row, Column, Table, Schema
+✓      Index
+✓      Foreign key
+✓      Primary key
+		Types of Table Relationships -
+✓		one-to-one
+✓		one-to-many
+✓		many-to-many
+✓       Запросы - Select, 
+✓        CRUD, 
+✓	Inner Join, Outer join - Left, Right	
+       
+-------------------------------------------------------------------------
 
-   Глава3 - SQL, JDBC
+   	Глава4 - JDBC
    see: 
    Oracle Database JDBC Developer's Guide, 12c Release 1 (12.1)
    https://docs.oracle.com/database/121/JJDBC/E49300-05.pdf
@@ -57,9 +71,11 @@
    https://www.mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/
 
 
-✓ 	Индексирование, внешние ключи, естественные ключи
+	 
+
+
 ✓ 	Базовый синтаксис SQL
-✓ 	Запросы Select, Join, Outer join - Left, Right
+✓ 	
 ✓ 	Отношения "one2one", "one2many", "many2many" 
 ✓ 	JDBC
 ✓ 	     Connection
@@ -71,7 +87,7 @@
 	
 ✓       Практическое задание 5.1 (Глава5) - 
         Добиться отката всей операции при допустим ошибке на 5-м batch
- 	Решено - используется connection.setAutoCommit(false) + одна транзакция, 
+	Решено - используется connection.setAutoCommit(false) + одна транзакция, 
 	в рамках которой последовательно идет выполнение batch-ей. В случае,
 	если произойдет ошибка на каком-то batch-е произойдет откат всей серии batch-ей.
 	см - 
@@ -80,7 +96,7 @@
   
   ------------------------------------------------------------------------
 
-✓		Глава4 - Многопоточность
+✓	Глава4 - Многопоточность
 
 ✓	Синхронные и асинхронные операции
 ✓	Синхронизация ресурсов
