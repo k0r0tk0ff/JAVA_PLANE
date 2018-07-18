@@ -70,10 +70,6 @@
    https://blogs.oracle.com/dev2dev/get-oracle-jdbc-drivers-and-ucp-from-oracle-maven-repository-without-ides
    https://www.mkyong.com/maven/how-to-add-oracle-jdbc-driver-in-your-maven-local-repository/
 
-
-	 
-
-
 ✓ 	Базовый синтаксис SQL
 ✓ 	
 ✓ 	Отношения "one2one", "one2many", "many2many" 
