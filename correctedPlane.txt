@@ -106,12 +106,10 @@
 	https://github.com/k0r0tk0ff/ThreadTest
 ------------------------------------------------------------------------
 
-Глава5 - Java Memory Model
-	
-	Cборщик мусора
-	Типы сборщиков
-	Профилирование приложений
-	Soft weak ссылки и коллекции
+Глава5 - Java profiling, garbage collector
+✓	JDK jmap
+✓	Cборщик мусора
+✓	Spring Aspect
 	
 	---------------------------------
 	Практическое задание (Глава7) Профилирование приложений
@@ -121,29 +119,31 @@
 	--------------------------------
 ------------------------------------------------------------------------
 
-	Глава6	Ввод-вывод, Socket
+✓	Глава6	Ввод-вывод, Socket
 	
-	Java IO, NIO, NIO.2
-	InputStreams, OutputStreams
-	Readers, Writers
-	Scanner
-	TCP socket (Server, Client)
+✓	Java IO, NIO, NIO.2
+✓	InputStreams, OutputStreams
+✓	BufferedInputStreams, OutputStreams
+✓	Readers, Writers
+✓	Scanner
+✓	TCP socket (Server, Client)
 	
 	
 	Практическое задание (Глава6)
-	Написать приложение, 
+✓	Написать приложение, 
 	которое бы использовало вышеприведенные технологии
 	
 ------------------------------------------------------------------------	
 	
-	Глава7 Spring
+✓	Глава7 Spring
  
-        основы - IoC, Dependency Injection, Context
-	Spring Core 
-	Spring MVC (Filters, View, ... паттерн Chain Responcibility)
-	Spring Security	
+✓       основы - IoC, Dependency Injection, Context
+✓	Spring Core 
+✓	Spring MVC (Filters, View, ... паттерн Chain Responcibility)
+✓	Spring Security	
 	
-	Практическое задание (Глава8) -
+✓	Практическое задание (Глава8) -
 	Написать приложение, которое бы использовало связку
 	Spring Core + Spring MVC + Spring Security
+	see: https://github.com/k0r0tk0ff/Temperature
 ------------------------------------------------------------------------
