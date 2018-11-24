@@ -1,0 +1,13 @@
+0) Системы управления деплоем  -  Jetkins, Gitlab CI (see Gitlab CI examples)
+1) Spring cloud 
+cloud config
+2) Microservices - SOA
+3)Rest, SOAP
+4) Elasticsearch + Kibana + Logstash
+
+HashMap collizion
+
+Spring
+FetchType - Lazy, Eager
+Cascade Type
+Transactional - types
