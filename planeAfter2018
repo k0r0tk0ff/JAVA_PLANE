@@ -1,6 +1,8 @@
 0) Системы управления деплоем  -  Jetkins, Gitlab CI (see Gitlab CI examples)
 1) Spring cloud 
-cloud config
+         cloud config
+         общий обзор - https://habr.com/company/jugru/blog/341026/
+          
 2) Microservices - SOA
 3)Rest, SOAP
 4) Elasticsearch + Kibana + Logstash
