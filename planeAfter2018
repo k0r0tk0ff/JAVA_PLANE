@@ -12,11 +12,12 @@ HashMap collizion
 #####################      Spring     #################
 ### ------------------   JPA  -------------------------
 FetchType - Lazy, Eager
-Cascade Type
 Transactional - types
+
+Cascade Type
+https://howtodoinjava.com/hibernate/hibernate-jpa-cascade-types/
 
 Описание ключей и способы их определения и использования
 https://easyjava.ru/data/jpa/pervichnye-klyuchi-v-jpa/
-
 
 ### ---------------------------------------------------
