@@ -34,6 +34,7 @@ Read uncommited - гарантирует только, что изменения
 ------------------
 Cascade Type
 https://howtodoinjava.com/hibernate/hibernate-jpa-cascade-types/
+https://habr.com/post/271115/
 
 ------------------
 
