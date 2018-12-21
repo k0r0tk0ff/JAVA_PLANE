@@ -6,6 +6,10 @@
 2) Microservices - SOA
 3)Rest, SOAP
 4) Elasticsearch + Kibana + Logstash
+5) Балансировка нагрузки (LOAD BALANCER)
+https://www.digitalocean.com/community/tutorials/how-to-create-a-high-availability-setup-with-corosync-pacemaker-and-floating-ips-on-ubuntu-14-04
+NGINX - поддержка балансировки stream потока (т.е. TCP траффика)
+
 
 HashMap collizion
 
